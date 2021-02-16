@@ -72,12 +72,12 @@ body {
  
 .bannerImage {
     animation: welcome 3s;
+    min-height: 500px;
     overflow: hidden;
 } 
 
 .carousel-inner .carousel-item{
     max-height: 600px;
-    min-height: 500px;
     overflow: hidden;
 }
 .showsContainer {
