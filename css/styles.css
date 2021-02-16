@@ -73,6 +73,7 @@ body {
  
 .bannerImage {
     animation: welcome 3s;
+    min-height: 600px;
 } 
 
 .carousel-inner .carousel-item{
