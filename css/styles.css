@@ -77,6 +77,7 @@ body {
 
 .carousel-inner .carousel-item{
     max-height: 600px;
+    min-height: 300px;
     overflow: hidden;
 }
 .showsContainer {
