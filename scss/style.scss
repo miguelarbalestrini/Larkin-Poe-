@@ -1,0 +1,272 @@
+$backGroundColor: #ededf1;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: $backGroundColor;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    color: #040411;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+/*General*/
+html {
+    font-size: 1rem;
+}
+@media (min-width: 276px) {
+    html {
+        font-size: 0.5rem;
+    }
+    div ol li {
+        font-size: 0.5rem;
+    }
+
+}
+@media (min-width: 376px) {
+    html {
+        font-size: 0.6rem;
+    }
+    div ol li {
+        font-size: 0.6rem;
+    }
+}
+@media (min-width: 476px) {
+    html {
+        font-size: 0.7rem;
+    }
+    div ol li {
+        font-size: 0.7rem;
+    }
+}
+@media (min-width: 576px) {
+    html {
+        font-size: 0.9rem;
+    }
+    div ol li {
+        font-size: 0.9rem;
+    }
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 1rem;
+    }
+    div ol li {
+        font-size: 1rem;
+    }
+}
+@media (min-width: 992px) {
+    html {
+        font-size: 1.1rem;
+    }
+    div ol li {
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 1200px) {
+    html {
+        font-size: 1.2rem;
+    }
+    div ol li {
+        font-size:  1.2rem;
+    }
+}
+.navbar-expand-md .navbar-nav {
+    font-size: 1.5rem;
+}
+
+.nav-item {
+    text-align: right;
+}
+
+.colorLarkinPNav {
+    background-color: $backGroundColor;
+}
+.colorLarkinPNav--right {
+    text-align: right;
+}
+
+.larkinPoe {
+    height: 30px;
+    overflow: hidden;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.larkinPoe:hover {
+    filter: sepia(60%);
+}
+
+.bandName {
+    display: inline;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.titleMyApp {
+    color: #040411;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    grid-area: footer;
+}
+
+/*Index*/
+@keyframes welcome {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 75%;
+}
+
+.bannerImage {
+    animation: welcome 3s;
+    overflow: hidden;
+}
+
+.btn.btn-dark {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+}
+
+.list-group-item {
+    background-color: $backGroundColor;
+}
+
+.networks {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    .networks__socialButton {
+        height: 80px;
+        width: 80px;
+        padding-left: 30px;
+    }
+}
+
+.networks__socialButton:hover {
+    transform: translateY(-10px);
+}
+
+/*Biography*/
+.bioTittle {
+    background-color: #c4c3cc;
+}
+
+.bio {
+    background-color: #c4c3cc;
+    text-align: center;
+    .bio__text {
+        text-align: left;
+        padding: 20px;
+        color: #040411;
+        background-color: #c4c3cc;
+        margin: 0 260px 0 260px;
+        padding-left: 60px;
+    }
+    .bio__image {
+        height: 400px;
+        clip-path: circle(200px);
+    }
+}
+
+/*Discography*/
+
+.albumImg {
+    max-width: 450px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.albumDetails {
+    overflow: hidden;
+    background-color: #040411;
+    max-width: 450px;
+    max-height: 500px;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #cccca0;
+    line-height: 25px;
+    margin: 0;
+}
+test {
+    width: 450px;
+    height: 500px;
+    overflow: hidden;
+    margin: 0;
+}
+div {
+    ol {
+        li {
+            color: #e3ecec;
+            padding-top: 5px;
+        }
+    }
+}
+
+/*Movie*/
+.titleArea {
+    background-color: #c4c3cc;
+    margin: 0 10vw 0 10vw;
+}
+
+.movies {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 370px;
+    background-color: #c4c3cc;
+    margin: 0 10vw 0 10vw;
+    padding-bottom: 30px;
+}
+
+.larkinPoeMusicVideo {
+    width: 700;
+    height: 500;
+    padding-top: 50px;
+}
+
+/*Contact*/
+.form {
+    background-color: #c4c3cc;
+    color: #040411;
+    border-radius: 50px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
