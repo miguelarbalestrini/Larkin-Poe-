@@ -51,19 +51,19 @@ html {
   html {
     font-size: 1rem; }
   div ol li {
-    font-size: 1rem; } }
+    font-size: 0.7rem; } }
 
 @media (min-width: 992px) {
   html {
-    font-size: 1.1rem; }
+    font-size: 0.8rem; }
   div ol li {
-    font-size: 1.1rem; } }
+    font-size: 0.9rem; } }
 
 @media (min-width: 1200px) {
   html {
     font-size: 1.2rem; }
   div ol li {
-    font-size: 1.2rem; } }
+    font-size: 1rem; } }
 
 .navbar-expand-md .navbar-nav {
   font-size: 1.5rem; }
@@ -85,12 +85,6 @@ html {
 
 .larkinPoe:hover {
   filter: sepia(60%); }
-
-.bandName {
-  display: inline;
-  height: 50px;
-  padding-right: 10px;
-  padding-left: 10px; }
 
 .titleMyApp {
   color: #040411;
@@ -137,10 +131,11 @@ html {
   padding-top: 30px;
   margin-right: 40px;
   margin-bottom: 20px; }
-  .networks .networks__socialButton {
-    height: 80px;
-    width: 80px;
-    padding-left: 30px; }
+
+.networks__socialButton {
+  height: 80px;
+  width: 80px;
+  padding-left: 30px; }
 
 .networks__socialButton:hover {
   transform: translateY(-10px); }
@@ -152,38 +147,34 @@ html {
 .bio {
   background-color: #c4c3cc;
   text-align: center; }
-  .bio .bio__text {
-    text-align: left;
-    padding: 20px;
-    color: #040411;
-    background-color: #c4c3cc;
-    margin: 0 260px 0 260px;
-    padding-left: 60px; }
-  .bio .bio__image {
-    height: 400px;
-    clip-path: circle(200px); }
+
+.bio__text {
+  text-align: left;
+  padding: 20px;
+  color: #040411;
+  background-color: #c4c3cc;
+  margin: 0 260px 0 260px;
+  padding-left: 60px; }
+
+.bio__image {
+  height: 400px;
+  clip-path: circle(200px); }
 
 /*Discography*/
 .albumImg {
   max-width: 450px;
-  max-height: 500px;
+  max-height: 450px;
   overflow: hidden; }
 
 .albumDetails {
   overflow: hidden;
   background-color: #040411;
   max-width: 450px;
-  max-height: 500px;
-  padding-top: 30px;
-  padding-left: 30px;
+  max-height: 450px;
+  padding: 10px;
+  padding-left: 50px;
   color: #cccca0;
   line-height: 25px;
-  margin: 0; }
-
-test {
-  width: 450px;
-  height: 500px;
-  overflow: hidden;
   margin: 0; }
 
 div ol li {
@@ -193,20 +184,23 @@ div ol li {
 /*Movie*/
 .titleArea {
   background-color: #c4c3cc;
-  margin: 0 10vw 0 10vw; }
+  /*  margin: 0 10vw 0 10vw; */ }
 
 .movies {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  padding-left: 370px;
-  background-color: #c4c3cc;
-  margin: 0 10vw 0 10vw;
-  padding-bottom: 30px; }
+  /* display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 370px;
+    margin: 0 10vw 0 10vw;
+    padding-bottom: 30px; */
+  background-color: #c4c3cc; }
+
+.aiuda {
+  background-color: red; }
 
 .larkinPoeMusicVideo {
-  width: 700;
-  height: 500;
+  max-width: 700x;
+  max-height: 500px;
   padding-top: 50px; }
 
 /*Contact*/
