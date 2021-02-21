@@ -141,9 +141,6 @@ html {
   transform: translateY(-10px); }
 
 /*Biography*/
-.bioTittle {
-  background-color: #c4c3cc; }
-
 .bio {
   background-color: #c4c3cc;
   text-align: center; }
@@ -152,13 +149,17 @@ html {
   text-align: left;
   padding: 20px;
   color: #040411;
-  background-color: #c4c3cc;
-  margin: 0 260px 0 260px;
-  padding-left: 60px; }
+  background-color: #c4c3cc; }
 
 .bio__image {
-  height: 400px;
-  clip-path: circle(200px); }
+  max-height: 400px;
+  max-width: 400px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  /* clip-path: circle(200px); */
+  /*    overflow: hidden;
+    background-color: red;
+    background-size: cover; */ }
 
 /*Discography*/
 .albumImg {
