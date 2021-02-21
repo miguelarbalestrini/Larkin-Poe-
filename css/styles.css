@@ -21,7 +21,8 @@ h6 {
 
 /*General*/
 html {
-  font-size: 1rem; }
+  font-size: 1rem;
+  scroll-behavior: smooth; }
 
 @media (min-width: 276px) {
   html {
@@ -95,10 +96,7 @@ html {
   text-align: center;
   padding: 20px;
   position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  grid-area: footer; }
+  width: 100%; }
 
 /*Index*/
 @keyframes welcome {
@@ -106,6 +104,24 @@ html {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+/* @keyframes dropDownAnimated {
+    0% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+} */
+#mainContent {
+  background-color: #ededf1; }
+
+.fa.fa-chevron-down {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  animation: dropDownAnimated 3s; }
 
 .carousel-indicators {
   position: absolute;

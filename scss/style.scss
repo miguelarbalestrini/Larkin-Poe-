@@ -27,6 +27,7 @@ h6 {
 /*General*/
 html {
     font-size: 1rem;
+    scroll-behavior: smooth;
 }
 @media (min-width: 276px) {
     html {
@@ -121,12 +122,8 @@ html {
     text-align: center;
     padding: 20px;
     position: relative;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    grid-area: footer;
 }
-
 /*Index*/
 @keyframes welcome {
     0% {
@@ -137,6 +134,26 @@ html {
     }
 }
 
+/* @keyframes dropDownAnimated {
+    0% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+} */
+
+#mainContent {
+   background-color: $backGroundColor;
+}
+
+.fa.fa-chevron-down {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+   /*  animation: dropDownAnimated 3s; */
+}
 .carousel-indicators {
     position: absolute;
     top: 75%;
