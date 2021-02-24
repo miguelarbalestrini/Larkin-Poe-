@@ -31,7 +31,7 @@ html {
     font-size: 0.7rem; }
   div ol li {
     font-size: 0.5rem; }
-  .fa.fa-chevron-down {
+  .fas.fa-chevron-down.fa-2x {
     visibility: hidden; } }
 
 @media (min-width: 576px) {
@@ -39,7 +39,7 @@ html {
     font-size: 0.9rem; }
   div ol li {
     font-size: 0.7rem; }
-  .fa.fa-chevron-down {
+  .fas.fa-chevron-down.fa-2x {
     visibility: hidden; } }
 
 @media (min-width: 768px) {
@@ -47,7 +47,7 @@ html {
     font-size: 1rem; }
   div ol li {
     font-size: 0.8rem; }
-  .fa.fa-chevron-down {
+  .fas.fa-chevron-down.fa-2x {
     visibility: visible; } }
 
 @media (min-width: 992px) {
@@ -55,7 +55,7 @@ html {
     font-size: 0.8rem; }
   div ol li {
     font-size: 0.9rem; }
-  .fa.fa-chevron-down {
+  .fas.fa-chevron-down.fa-2x {
     visibility: visible; } }
 
 @media (min-width: 1200px) {
@@ -63,7 +63,7 @@ html {
     font-size: 1.2rem; }
   div ol li {
     font-size: 1rem; }
-  .fa.fa-chevron-down {
+  .fas.fa-chevron-down.fa-2x {
     visibility: visible; } }
 
 @media (min-width: 1400px) {
@@ -71,7 +71,7 @@ html {
     font-size: 1.3rem; }
   div ol li {
     font-size: 1rem; }
-  .fa.fa-chevron-down {
+  .fas.fa-chevron-down.fa-2x {
     visibility: visible; } }
 
 /*Shared Classes*/
