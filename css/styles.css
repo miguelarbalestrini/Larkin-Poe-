@@ -24,47 +24,53 @@ html {
   font-size: 1rem;
   scroll-behavior: smooth; }
 
-@media (min-width: 276px) {
-  html {
-    font-size: 0.5rem; }
-  div ol li {
-    font-size: 0.5rem; } }
-
-@media (min-width: 376px) {
-  html {
-    font-size: 0.6rem; }
-  div ol li {
-    font-size: 0.6rem; } }
-
-@media (min-width: 476px) {
+@media (min-width: 0) {
   html {
     font-size: 0.7rem; }
   div ol li {
-    font-size: 0.7rem; } }
+    font-size: 0.5rem; }
+  .fa.fa-chevron-down {
+    visibility: hidden; } }
 
 @media (min-width: 576px) {
   html {
     font-size: 0.9rem; }
   div ol li {
-    font-size: 0.9rem; } }
+    font-size: 0.7rem; }
+  .fa.fa-chevron-down {
+    visibility: hidden; } }
 
 @media (min-width: 768px) {
   html {
     font-size: 1rem; }
   div ol li {
-    font-size: 0.7rem; } }
+    font-size: 0.8rem; }
+  .fa.fa-chevron-down {
+    visibility: visible; } }
 
 @media (min-width: 992px) {
   html {
     font-size: 0.8rem; }
   div ol li {
-    font-size: 0.9rem; } }
+    font-size: 0.9rem; }
+  .fa.fa-chevron-down {
+    visibility: visible; } }
 
 @media (min-width: 1200px) {
   html {
     font-size: 1.2rem; }
   div ol li {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .fa.fa-chevron-down {
+    visibility: visible; } }
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 1.3rem; }
+  div ol li {
+    font-size: 1rem; }
+  .fa.fa-chevron-down {
+    visibility: visible; } }
 
 .navbar-expand-md .navbar-nav {
   font-size: 1.5rem; }
@@ -121,11 +127,7 @@ html {
   position: absolute;
   left: 50%;
   top: 75%;
-  animation: dropDownAnimated 3s; }
-
-.carousel-indicators {
-  position: absolute;
-  top: 75%; }
+  /*  animation: dropDownAnimated 3s; */ }
 
 .bannerImage {
   animation: welcome 3s;
@@ -171,11 +173,7 @@ html {
   max-height: 400px;
   max-width: 400px;
   overflow: hidden;
-  margin-bottom: 20px;
-  /* clip-path: circle(200px); */
-  /*    overflow: hidden;
-    background-color: red;
-    background-size: cover; */ }
+  margin-bottom: 20px; }
 
 /*Discography*/
 .albumImg {
@@ -186,12 +184,13 @@ html {
 .albumDetails {
   overflow: hidden;
   background-color: #040411;
+  /*  text-align: left; */
   max-width: 450px;
   max-height: 450px;
   padding: 10px;
   padding-left: 50px;
   color: #cccca0;
-  line-height: 25px;
+  line-height: 90%;
   margin: 0; }
 
 div ol li {
@@ -200,16 +199,9 @@ div ol li {
 
 /*Movie*/
 .titleArea {
-  background-color: #c4c3cc;
-  /*  margin: 0 10vw 0 10vw; */ }
+  background-color: #c4c3cc; }
 
 .movies {
-  /* display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    padding-left: 370px;
-    margin: 0 10vw 0 10vw;
-    padding-bottom: 30px; */
   background-color: #c4c3cc;
   padding-bottom: 10px; }
 
