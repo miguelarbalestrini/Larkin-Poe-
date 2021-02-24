@@ -1,3 +1,4 @@
+/*Reset*/
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,7 @@ body {
   font-size: large;
   color: #040411; }
 
+/*Tags*/
 h1,
 h2,
 h3,
@@ -19,11 +21,11 @@ h5,
 h6 {
   margin-bottom: 0; }
 
-/*General*/
 html {
   font-size: 1rem;
   scroll-behavior: smooth; }
 
+/*Media Qeuries*/
 @media (min-width: 0) {
   html {
     font-size: 0.7rem; }
@@ -72,6 +74,7 @@ html {
   .fa.fa-chevron-down {
     visibility: visible; } }
 
+/*Shared Classes*/
 .navbar-expand-md .navbar-nav {
   font-size: 1.5rem; }
 
@@ -111,14 +114,6 @@ html {
   100% {
     opacity: 1; } }
 
-/* @keyframes dropDownAnimated {
-    0% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(-10px);
-    }
-} */
 #mainContent {
   background-color: #ededf1; }
 
@@ -126,8 +121,7 @@ html {
   color: white;
   position: absolute;
   left: 50%;
-  top: 75%;
-  /*  animation: dropDownAnimated 3s; */ }
+  top: 75%; }
 
 .bannerImage {
   animation: welcome 3s;
@@ -184,7 +178,6 @@ html {
 .albumDetails {
   overflow: hidden;
   background-color: #040411;
-  /*  text-align: left; */
   max-width: 450px;
   max-height: 450px;
   padding: 10px;
@@ -198,23 +191,13 @@ div ol li {
   padding-top: 5px; }
 
 /*Movie*/
-.titleArea {
+.titleMyApp--movie {
   background-color: #c4c3cc; }
 
-.movies {
+.movie {
   background-color: #c4c3cc;
   padding-bottom: 10px; }
 
-.larkinPoeMusicVideo {
-  /* max-width: 700x;
-    max-height: 500px; */
+.movie__musicVideo {
   margin-top: 30px;
   margin-bottom: 30px; }
-
-/*Contact*/
-.form {
-  background-color: #c4c3cc;
-  color: #040411;
-  border-radius: 50px;
-  width: 50%;
-  margin-bottom: 20px; }

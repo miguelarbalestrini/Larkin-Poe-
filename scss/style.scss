@@ -1,5 +1,6 @@
 $backGroundColor: #ededf1;
 
+/*Reset*/
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +16,7 @@ body {
     color: #040411;
 }
 
+/*Tags*/
 h1,
 h2,
 h3,
@@ -24,12 +26,12 @@ h6 {
     margin-bottom: 0;
 }
 
-/*General*/
 html {
     font-size: 1rem;
     scroll-behavior: smooth;
 }
 
+/*Media Qeuries*/
 @media (min-width: 0) {
     html {
         font-size: 0.7rem;
@@ -98,7 +100,7 @@ html {
     div {
         ol {
             li {
-                font-size:  1rem;
+                font-size: 1rem;
             }
         }
     }
@@ -114,15 +116,16 @@ html {
     div {
         ol {
             li {
-                font-size:  1rem;
+                font-size: 1rem;
             }
         }
     }
     .fa.fa-chevron-down {
         visibility: visible;
-    } 
+    }
 }
 
+/*Shared Classes*/
 .navbar-expand-md .navbar-nav {
     font-size: 1.5rem;
 }
@@ -134,6 +137,7 @@ html {
 .colorLarkinPNav {
     background-color: $backGroundColor;
 }
+
 .colorLarkinPNav--right {
     text-align: right;
 }
@@ -161,6 +165,7 @@ html {
     position: relative;
     width: 100%;
 }
+
 /*Index*/
 @keyframes welcome {
     0% {
@@ -171,17 +176,8 @@ html {
     }
 }
 
-/* @keyframes dropDownAnimated {
-    0% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(-10px);
-    }
-} */
-
 #mainContent {
-   background-color: $backGroundColor;
+    background-color: $backGroundColor;
 }
 
 .fa.fa-chevron-down {
@@ -189,7 +185,6 @@ html {
     position: absolute;
     left: 50%;
     top: 75%;
-   /*  animation: dropDownAnimated 3s; */
 }
 
 .bannerImage {
@@ -228,7 +223,6 @@ html {
 }
 
 /*Biography*/
-
 .bio {
     background-color: #c4c3cc;
     text-align: center;
@@ -245,7 +239,7 @@ html {
     max-height: 400px;
     max-width: 400px;
     overflow: hidden;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
 }
 
 /*Discography*/
@@ -258,7 +252,6 @@ html {
 .albumDetails {
     overflow: hidden;
     background-color: #040411;
-   /*  text-align: left; */
     max-width: 450px;
     max-height: 450px;
     padding: 10px;
@@ -278,28 +271,16 @@ div {
 }
 
 /*Movie*/
-.titleArea {
+.titleMyApp--movie {
     background-color: #c4c3cc;
 }
 
-.movies {
+.movie {
     background-color: #c4c3cc;
     padding-bottom: 10px;
 }
 
-.larkinPoeMusicVideo {
-    /* max-width: 700x;
-    max-height: 500px; */
+.movie__musicVideo {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
-/*Contact*/
-.form {
-    background-color: #c4c3cc;
-    color: #040411;
-    border-radius: 50px;
-    width: 50%;
-    margin-bottom: 20px;
-}
-
