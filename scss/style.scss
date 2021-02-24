@@ -176,15 +176,28 @@ html {
     }
 }
 
+@keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
 #mainContent {
     background-color: $backGroundColor;
 }
 
-.fa.fa-chevron-down {
+.fas.fa-chevron-down.fa-2x {
     color: white;
     position: absolute;
     left: 50%;
-    top: 75%;
+    top: 70%;
+    animation: down 1.5s infinite;
 }
 
 .bannerImage {
