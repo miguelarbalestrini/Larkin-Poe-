@@ -43,6 +43,12 @@ html {
             }
         }
     }
+    .nav-item {
+        border-style: ridge ridge none ridge;
+    }
+    .nav-item--last {
+        border-bottom: ridge;
+    }
     .fas.fa-chevron-down.fa-2x {
         visibility: hidden;
     }
@@ -59,6 +65,12 @@ html {
             }
         }
     }
+    .nav-item {
+        border-style: ridge ridge none ridge;
+    }
+    .nav-item--last {
+        border-bottom: ridge;
+    }
     .fas.fa-chevron-down.fa-2x {
         visibility: hidden;
     }
@@ -74,6 +86,9 @@ html {
             }
         }
     }
+    .nav-item {
+        border: none;
+    }
     .fas.fa-chevron-down.fa-2x {
         visibility: visible;
     }
@@ -88,6 +103,9 @@ html {
                 font-size: 0.9rem;
             }
         }
+    }
+    .nav-item {
+        border: none;
     }
     .fas.fa-chevron-down.fa-2x {
         visibility: visible;
@@ -131,15 +149,11 @@ html {
 }
 
 .nav-item {
-    text-align: right;
+    text-align: center;
 }
 
 .colorLarkinPNav {
     background-color: $backGroundColor;
-}
-
-.colorLarkinPNav--right {
-    text-align: right;
 }
 
 .larkinPoe {

@@ -31,6 +31,10 @@ html {
     font-size: 0.7rem; }
   div ol li {
     font-size: 0.5rem; }
+  .nav-item {
+    border-style: ridge ridge none ridge; }
+  .nav-item--last {
+    border-bottom: ridge; }
   .fas.fa-chevron-down.fa-2x {
     visibility: hidden; } }
 
@@ -39,6 +43,10 @@ html {
     font-size: 0.9rem; }
   div ol li {
     font-size: 0.7rem; }
+  .nav-item {
+    border-style: ridge ridge none ridge; }
+  .nav-item--last {
+    border-bottom: ridge; }
   .fas.fa-chevron-down.fa-2x {
     visibility: hidden; } }
 
@@ -47,6 +55,8 @@ html {
     font-size: 1rem; }
   div ol li {
     font-size: 0.8rem; }
+  .nav-item {
+    border: none; }
   .fas.fa-chevron-down.fa-2x {
     visibility: visible; } }
 
@@ -55,6 +65,8 @@ html {
     font-size: 0.8rem; }
   div ol li {
     font-size: 0.9rem; }
+  .nav-item {
+    border: none; }
   .fas.fa-chevron-down.fa-2x {
     visibility: visible; } }
 
@@ -79,13 +91,10 @@ html {
   font-size: 1.5rem; }
 
 .nav-item {
-  text-align: right; }
+  text-align: center; }
 
 .colorLarkinPNav {
   background-color: #ededf1; }
-
-.colorLarkinPNav--right {
-  text-align: right; }
 
 .larkinPoe {
   height: 30px;
