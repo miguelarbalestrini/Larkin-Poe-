@@ -288,6 +288,31 @@ html {
     margin: 0;
 }
 
+.fab.fa-spotify {
+    color:#cccca0;
+    padding-left: 0;
+}
+
+.fab.fa-spotify:hover {
+    filter: sepia(50%);
+}
+
+.fab.fa-soundcloud {
+    color:#cccca0;
+}
+
+.fab.fa-soundcloud:hover {
+    filter: sepia(50%);
+}
+
+.fab.fa-itunes  {
+    color: #cccca0;
+}
+
+.fab.fa-itunes:hover {
+    filter: sepia(50%);
+}
+
 div {
     ol {
         li {
