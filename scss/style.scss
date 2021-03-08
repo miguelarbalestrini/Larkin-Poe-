@@ -34,14 +34,7 @@ html {
 /*Media Qeuries*/
 @media (min-width: 0) {
     html {
-        font-size: 0.7rem;
-    }
-    div {
-        ol {
-            li {
-                font-size: 0.5rem;
-            }
-        }
+        font-size: 0.8rem;
     }
     .nav-item {
         border-style: ridge ridge none ridge;
@@ -57,13 +50,7 @@ html {
 @media (min-width: 576px) {
     html {
         font-size: 0.9rem;
-    }
-    div {
-        ol {
-            li {
-                font-size: 0.7rem;
-            }
-        }
+        line-height: 90%;
     }
     .nav-item {
         border-style: ridge ridge none ridge;
@@ -79,13 +66,6 @@ html {
     html {
         font-size: 1rem;
     }
-    div {
-        ol {
-            li {
-                font-size: 0.8rem;
-            }
-        }
-    }
     .nav-item {
         border: none;
     }
@@ -95,17 +75,11 @@ html {
 }
 @media (min-width: 992px) {
     html {
-        font-size: 0.8rem;
-    }
-    div {
-        ol {
-            li {
-                font-size: 0.9rem;
-            }
-        }
+        font-size: 1.1rem;
     }
     .nav-item {
         border: none;
+
     }
     .fas.fa-chevron-down.fa-2x {
         visibility: visible;
@@ -115,12 +89,8 @@ html {
     html {
         font-size: 1.2rem;
     }
-    div {
-        ol {
-            li {
-                font-size: 1rem;
-            }
-        }
+    .nav-item {
+        border: none;
     }
    .fas.fa-chevron-down.fa-2x {
         visibility: visible;
@@ -131,12 +101,8 @@ html {
     html {
         font-size: 1.3rem;
     }
-    div {
-        ol {
-            li {
-                font-size: 1rem;
-            }
-        }
+    .nav-item {
+        border: none;
     }
     .fas.fa-chevron-down.fa-2x {
         visibility: visible;
@@ -281,8 +247,6 @@ html {
     background-color: #040411;
     max-width: 450px;
     max-height: 450px;
-    padding: 10px;
-    padding-left: 50px;
     color: #cccca0;
     line-height: 90%;
     margin: 0;
@@ -316,6 +280,7 @@ html {
 div {
     ol {
         li {
+            font-size: 0.9 rem;
             color: #e3ecec;
             padding-top: 5px;
         }
