@@ -175,8 +175,8 @@ html {
   background-color: #c4c3cc; }
 
 .bio__image {
-  max-height: 400px;
-  max-width: 400px;
+  max-height: 300px;
+  max-width: 300px;
   overflow: hidden;
   margin-bottom: 20px; }
 
