@@ -235,6 +235,14 @@ html {
     margin-bottom: 20px;
 }
 
+.card {
+    border: none;
+    width: 18rem;
+}
+.card-body {
+    color: #cccca0;
+    background-color: #040411;
+}
 /*Discography*/
 .albumImg {
     max-width: 450px;
