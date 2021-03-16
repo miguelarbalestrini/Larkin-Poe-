@@ -175,10 +175,18 @@ html {
   background-color: #c4c3cc; }
 
 .bio__image {
-  max-height: 400px;
-  max-width: 400px;
+  max-height: 300px;
+  max-width: 300px;
   overflow: hidden;
   margin-bottom: 20px; }
+
+.card {
+  border: none;
+  width: 18rem; }
+
+.card-body {
+  color: #cccca0;
+  background-color: #040411; }
 
 /*Discography*/
 .albumImg {
@@ -190,11 +198,7 @@ html {
   overflow: hidden;
   background-color: #040411;
   max-width: 450px;
-  /*    max-height: 450px; */
-  /*     justify-content: center;
-    text-align: center; */
-  /*    padding: 10px;
-    padding-left: 50px;  */
+  max-height: 450px;
   color: #cccca0;
   line-height: 90%;
   margin: 0; }

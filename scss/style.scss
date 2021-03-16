@@ -229,12 +229,20 @@ html {
 }
 
 .bio__image {
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 300px;
+    max-width: 300px;
     overflow: hidden;
     margin-bottom: 20px;
 }
 
+.card {
+    border: none;
+    width: 18rem;
+}
+.card-body {
+    color: #cccca0;
+    background-color: #040411;
+}
 /*Discography*/
 .albumImg {
     max-width: 450px;
