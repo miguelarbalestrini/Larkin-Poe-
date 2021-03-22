@@ -309,3 +309,31 @@ div {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+/*Contact*/
+.accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    background-color: $backGroundColor;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.modal-body {
+    background-color: #e4e4f4;
+}
+
+.modal-header {
+    background-color: #e4e4f4;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #040411;
+  transform: translateY(-0.25em);
+}
