@@ -1,0 +1,28 @@
+@import "../utilities/color";
+
+.titleMyApp {
+    color: #040411;
+    text-align: center;
+    padding: 20px;
+}
+
+.titleMyApp--movie {
+    background-color: #c4c3cc;
+}
+
+.movie {
+    background-color: #c4c3cc;
+    padding-bottom: 10px;
+}
+
+.movie__musicVideo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}

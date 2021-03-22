@@ -1,0 +1,30 @@
+@import "../utilities/color";
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: $backGroundColor;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    color: #040411;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+html {
+    font-size: 1rem;
+    scroll-behavior: smooth;
+}

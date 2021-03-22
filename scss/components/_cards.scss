@@ -1,0 +1,16 @@
+@import "../utilities/color";
+
+.card {
+    border: none;
+    width: 18rem;
+    background-color: $backGroundColor;
+}
+
+/* .card--background {
+    background-color: $backGroundColor;
+} */
+
+.card-body {
+    color: #cccca0;
+    background-color: #040411;
+}

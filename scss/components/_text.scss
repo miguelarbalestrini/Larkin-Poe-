@@ -1,0 +1,23 @@
+@import "../utilities/color";
+
+.bio {
+    background-color: #c4c3cc;
+    text-align: center;
+}
+
+.bio__text {
+    text-align: left;
+    padding: 20px;
+    color: #040411;
+    background-color: #c4c3cc;
+}
+
+.albumDetails {
+    overflow: hidden;
+    background-color: #040411;
+    max-width: 450px;
+    max-height: 450px;
+    color: #cccca0;
+    line-height: 90%;
+    margin: 0;
+}
