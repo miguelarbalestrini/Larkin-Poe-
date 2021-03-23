@@ -66,6 +66,8 @@ html {
 @media (min-width: 0) {
   html {
     font-size: 0.8rem; }
+  .card-body ul li {
+    font-size: 0.9rem; }
   .nav-item {
     border-style: ridge ridge none ridge; }
   .nav-item--last {
@@ -77,6 +79,8 @@ html {
   html {
     font-size: 0.9rem;
     line-height: 90%; }
+  .card-body ul li {
+    font-size: 0.9rem; }
   .nav-item {
     border-style: ridge ridge none ridge; }
   .nav-item--last {
