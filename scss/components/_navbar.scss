@@ -1,0 +1,24 @@
+@import "../utilities/color";
+
+.navbar-expand-md .navbar-nav {
+    font-size: 1.5rem;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.colorLarkinPNav {
+    background-color: $backGroundColor;
+}
+
+.larkinPoe {
+    height: 30px;
+    overflow: hidden;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.larkinPoe:hover {
+    filter: sepia(60%);
+}

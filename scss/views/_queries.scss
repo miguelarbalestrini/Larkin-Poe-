@@ -1,0 +1,80 @@
+/*Media Qeuries*/
+@import "../normalize/reset";
+
+
+@media (min-width: 0) {
+    html {
+        font-size: 0.8rem;
+    }
+    .nav-item {
+        border-style: ridge ridge none ridge;
+    }
+    .nav-item--last {
+        border-bottom: ridge;
+    }
+    .fas.fa-chevron-down.fa-2x {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 576px) {
+    html {
+        font-size: 0.9rem;
+        line-height: 90%;
+    }
+    .nav-item {
+        border-style: ridge ridge none ridge;
+    }
+    .nav-item--last {
+        border-bottom: ridge;
+    }
+    .fas.fa-chevron-down.fa-2x {
+        visibility: hidden;
+    }
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 1rem;
+    }
+    .nav-item {
+        border: none;
+    }
+    .fas.fa-chevron-down.fa-2x {
+        visibility: visible;
+    }
+}
+@media (min-width: 992px) {
+    html {
+        font-size: 1.1rem;
+    }
+    .nav-item {
+        border: none;
+
+    }
+    .fas.fa-chevron-down.fa-2x {
+        visibility: visible;
+    }
+}
+@media (min-width: 1200px) {
+    html {
+        font-size: 1.2rem;
+    }
+    .nav-item {
+        border: none;
+    }
+   .fas.fa-chevron-down.fa-2x {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 1400px) {
+    html {
+        font-size: 1.3rem;
+    }
+    .nav-item {
+        border: none;
+    }
+    .fas.fa-chevron-down.fa-2x {
+        visibility: visible;
+    }
+}
