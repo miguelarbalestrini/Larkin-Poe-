@@ -12,6 +12,9 @@
             }
         }
     }
+    .card-text {
+        font-size: 0.8rem;
+    }
     .nav-item {
         border-style: ridge ridge none ridge;
     }
@@ -27,6 +30,9 @@
     html {
         font-size: 0.9rem;
         line-height: 90%;
+    }
+    .card-text {
+        font-size: 0.8rem;
     }
     .card-body {
         ul {
