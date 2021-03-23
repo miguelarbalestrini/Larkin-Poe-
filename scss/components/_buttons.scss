@@ -1,15 +1,15 @@
 @import "../utilities/color";
 
 @keyframes down {
-	0% {
-		transform: translate(0);
-	}
-	20% {
-		transform: translateY(15px);
-	}
-	40% {
-		transform: translate(0);
-	}
+    0% {
+        transform: translate(0);
+    }
+    20% {
+        transform: translateY(15px);
+    }
+    40% {
+        transform: translate(0);
+    }
 }
 
 .fas.fa-chevron-down.fa-2x {
@@ -57,7 +57,7 @@
     filter: sepia(50%);
 }
 
-.fab.fa-itunes  {
+.fab.fa-itunes {
     color: $chino;
 }
 
@@ -67,6 +67,6 @@
 
 .raise:hover,
 .raise:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em $ebony;
-  transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em -0.4em $ebony;
+    transform: translateY(-0.25em);
 }
