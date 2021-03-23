@@ -1,7 +1,6 @@
 /*Media Qeuries*/
 @import "../normalize/reset";
 
-
 @media (min-width: 0) {
     html {
         font-size: 0.8rem;
@@ -63,7 +62,6 @@
     }
     .nav-item {
         border: none;
-
     }
     .fas.fa-chevron-down.fa-2x {
         visibility: visible;
@@ -76,7 +74,7 @@
     .nav-item {
         border: none;
     }
-   .fas.fa-chevron-down.fa-2x {
+    .fas.fa-chevron-down.fa-2x {
         visibility: visible;
     }
 }
