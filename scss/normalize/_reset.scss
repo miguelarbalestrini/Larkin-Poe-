@@ -1,5 +1,5 @@
 @import "../utilities/color";
-/*Reset*/
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     background-color: $backGroundColor;
     font-family: "Roboto", sans-serif;
     font-size: large;
-    color: #040411;
+    color: $ebony;
 }
 
 h1,

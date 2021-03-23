@@ -1,4 +1,3 @@
-/*Reset*/
 * {
   margin: 0;
   padding: 0;
@@ -39,7 +38,6 @@ html {
   align-items: center; }
 
 /*Media Qeuries*/
-/*Reset*/
 * {
   margin: 0;
   padding: 0;
@@ -118,6 +116,14 @@ html {
   .fas.fa-chevron-down.fa-2x {
     visibility: visible; } }
 
+@keyframes down {
+  0% {
+    transform: translate(0); }
+  20% {
+    transform: translateY(15px); }
+  40% {
+    transform: translate(0); } }
+
 .fas.fa-chevron-down.fa-2x {
   color: white;
   position: absolute;
@@ -170,12 +176,15 @@ html {
   width: 18rem;
   background-color: #ededf1; }
 
-/* .card--background {
-    background-color: $backGroundColor;
-} */
 .card-body {
   color: #cccca0;
   background-color: #040411; }
+
+@keyframes welcome {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 .bannerImage {
   animation: welcome 3s;

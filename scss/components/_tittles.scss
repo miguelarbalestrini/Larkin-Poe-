@@ -1,17 +1,17 @@
 @import "../utilities/color";
 
 .titleMyApp {
-    color: #040411;
+    color: $ebony;
     text-align: center;
     padding: 20px;
 }
 
 .titleMyApp--movie {
-    background-color: #c4c3cc;
+    background-color: $frenchGray;
 }
 
 .movie {
-    background-color: #c4c3cc;
+    background-color: $frenchGray;
     padding-bottom: 10px;
 }
 
