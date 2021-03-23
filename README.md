@@ -6,7 +6,7 @@ This is the final project for the web development course taught by CoderHouse. D
 
 ## Deployment
 
-Deployment made in [github pages](https://tgia.github.io/Larkin-Poe-/) y
+Deployment made in [github pages](https://tgia.github.io/Larkin-Poe-/) and
 [000webhost](https://larkinpoe.000webhostapp.com).
 
 ## License
