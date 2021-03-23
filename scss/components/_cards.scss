@@ -1,0 +1,12 @@
+@import "../utilities/color";
+
+.card {
+    border: none;
+    width: 18rem;
+    background-color: $backGroundColor;
+}
+
+.card-body {
+    color: $chino;
+    background-color: $ebony;
+}

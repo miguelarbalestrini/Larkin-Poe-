@@ -1,0 +1,72 @@
+@import "../utilities/color";
+
+@keyframes down {
+    0% {
+        transform: translate(0);
+    }
+    20% {
+        transform: translateY(15px);
+    }
+    40% {
+        transform: translate(0);
+    }
+}
+
+.fas.fa-chevron-down.fa-2x {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    animation: down 1.5s infinite;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn.btn-dark {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+}
+
+.networks__socialButton {
+    height: 80px;
+    width: 80px;
+    padding-left: 30px;
+}
+
+.networks__socialButton:hover {
+    transform: translateY(-10px);
+}
+
+.fab.fa-spotify {
+    color: $chino;
+    padding-left: 0;
+}
+
+.fab.fa-spotify:hover {
+    filter: sepia(50%);
+}
+
+.fab.fa-soundcloud {
+    color: $chino;
+}
+
+.fab.fa-soundcloud:hover {
+    filter: sepia(50%);
+}
+
+.fab.fa-itunes {
+    color: $chino;
+}
+
+.fab.fa-itunes:hover {
+    filter: sepia(50%);
+}
+
+.raise:hover,
+.raise:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em $ebony;
+    transform: translateY(-0.25em);
+}
